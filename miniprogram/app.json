@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "plugins": {
+    "son-of-weather": {
+      "version": "dev",
+      "provider": "wx5285ed6fbbc84471"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

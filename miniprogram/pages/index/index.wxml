@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="title">
+    demo 页面
+  </view>
+  <navigator id="nav" url="plugin-private://wx5285ed6fbbc84471/pages/page-map?latitude={{latitude}}&longitude={{longitude}}">
+    Go to Plugin page
+  </navigator>
+  <son-of-weather localtion="{{ localtion }}"  />
+</view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "son-of-weather": "plugin://son-of-weather/weather"
+  }
+}

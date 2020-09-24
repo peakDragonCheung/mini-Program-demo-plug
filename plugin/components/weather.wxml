@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="weather-wrap">
+    位置：<text> {{province}} {{city}} {{county}}</text> 
+     <icon bindtap="goMapPage" type="search" size="12"></icon>
+  </view>
+  <view class="weather-detail">
+    当前区域的天气为：{{weather.weather}}
+  </view>
+  <view class="weather-detail">
+   当前区域的温度为：{{weather.temperature}} 度
+  </view>
+   <view class="weather-detail">
+   当前区域的湿度为：{{weather.humidity}} 度
+  </view>
+   <view class="weather-detail">
+   当前区域的风向为：{{weather.winddirection}} 
+  </view>
+  <view class="weather-detail">
+   当前区域的风力为：{{weather.windpower}} 级
+  </view>
+</view>
+<!-- <navigator url="plugin-private://wx5285ed6fbbc84471/pages/page-map">
+  插件页面
+</navigator> -->

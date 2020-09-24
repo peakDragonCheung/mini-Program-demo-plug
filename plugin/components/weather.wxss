@@ -1,0 +1,9 @@
+.container {
+  margin: 1em;
+}
+.weather-wrap text {
+  margin-right: 20rpx;
+}
+.weather-detail {
+  margin-top: 30rpx;
+}

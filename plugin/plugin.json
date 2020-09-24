@@ -1,0 +1,9 @@
+{
+  "publicComponents": {
+    "weather": "components/weather"
+  },
+  "pages": {
+    "page-map": "pages/page-map"
+  },
+  "main": "index.js"
+}
